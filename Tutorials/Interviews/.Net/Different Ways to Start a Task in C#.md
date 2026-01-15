@@ -649,7 +649,7 @@ public async Task<int> GetDataAsync()
 
 ## Real-World Financial Systems Example
 
-In a risk management system like BAM's, you might use different task starting methods for different scenarios:
+In a risk management system, you might use different task starting methods for different scenarios:
 
 ```csharp
 public class RiskCalculationService
