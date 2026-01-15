@@ -355,7 +355,7 @@ tcs.Task.ContinueWith(t => Console.WriteLine(t.Result),
 
 ## Real-World Financial Systems Example
 
-In a risk management system like the one you'd build at BAM, TaskCompletionSource is useful for coordinating market data feeds:
+In a risk management system, TaskCompletionSource is useful for coordinating market data feeds:
 
 ```csharp
 public class MarketDataAggregator
